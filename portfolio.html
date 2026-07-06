@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kris Arias — Developer &amp; UX/UI Designer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="portfolio.css">
+
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="#top">
+      <img class="brand-mark" src="images/firmav1W.svg" alt="Logo" />
+      Kris Arias
+    </a>
+    <div class="nav-links">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="graticule"></div>
+  <div class="wrap hero-inner">
+    <div>
+      <div class="hero-coords">09°59'N &nbsp;·&nbsp; 084°12'W &nbsp;—&nbsp; DESARROLLO Y DISEÑO DESDE COSTA RICA</div>
+      <h1>Kris<br>Arias</h1>
+      <div class="hero-role">Software Developer &amp; UX/UI Designer</div>
+      <p class="hero-tagline">Diseño interfaces que se leen como un buen mapa: claras, intuitivas y construidas alrededor de las necesidades reales de quienes las usan.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+        <a class="btn btn-outline" href="#contacto">Contactar</a>
+      </div>
+      <div class="credentials">
+        <span class="credential">AWS Certified Cloud Practitioner</span>
+        <span class="credential">GPA 9.62/10</span>
+        <span class="credential">Inglés C1 Cambridge</span>
+        <span class="credential">1er lugar · ExpoMedia 2023</span>
+        <span class="credential">Licenciatura UX/UI en curso — UCR</span>
+      </div>
+    </div>
+    <div class="compass-wrap">
+      <svg class="compass" viewBox="0 0 300 300" fill="none">
+        <circle cx="150" cy="150" r="120" stroke="#96B2A0" stroke-width="1"/>
+        <circle cx="150" cy="150" r="95" stroke="#96B2A0" stroke-width="0.6" stroke-dasharray="2 4"/>
+        <g class="spin">
+          <path d="M150 40 L162 150 L150 260 L138 150 Z" fill="#78A19C" opacity="0.9"/>
+          <path d="M40 150 L150 138 L260 150 L150 162 Z" fill="#5F6F6B" opacity="0.5"/>
+          <path d="M150 40 L156 150 L150 150 Z" fill="#C4956B"/>
+        </g>
+        <circle cx="150" cy="150" r="6" fill="#F4F3EF"/>
+        <text x="150" y="28" text-anchor="middle" fill="#F4F3EF" font-family="IBM Plex Mono" font-size="13">N</text>
+        <text x="150" y="282" text-anchor="middle" fill="#96B2A0" font-family="IBM Plex Mono" font-size="13">S</text>
+        <text x="278" y="155" text-anchor="middle" fill="#96B2A0" font-family="IBM Plex Mono" font-size="13">E</text>
+        <text x="22" y="155" text-anchor="middle" fill="#96B2A0" font-family="IBM Plex Mono" font-size="13">O</text>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<section id="sobre-mi">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-text">
+        <div class="eyebrow">Sobre mí</div>
+        <h2 style="font-family: var(--font-display); font-weight:600; font-size: clamp(1.7rem, 3.6vw, 2.3rem); margin-top:10px;">Un perfil híbrido: código y diseño</h2>
+        <p>Soy desarrolladora de formación y diseñadora UX/UI por convicción. Cursé el Bachillerato en Informática y Tecnología Multimedia en la Universidad de Costa Rica y actualmente curso la Licenciatura en Diseño de Interfaces y Experiencia de Usuario en la misma universidad — una combinación que me permite pensar un producto tanto desde su arquitectura técnica como desde la experiencia de quien lo usa.</p>
+        <p>He trabajado en soporte y desarrollo de herramientas internas, modernización de sistemas de información y proyectos completos de diseño y desarrollo full-stack.</p>
+      </div>
+     <div class="legend">
+        <div class="legend-title">Leyenda / Herramientas</div>
+
+        <div class="legend-item">
+          <span class="legend-mark stack"><></span>
+          Desarrollo full-stack — Laravel, React, JS, Python, Java, C++
+        </div>
+
+        <div class="legend-item">
+          <span class="legend-mark data">DB</span>
+          Bases de datos — MySQL, SQL Server, modelado relacional
+        </div>
+
+        <div class="legend-item">
+          <span class="legend-mark ux">UX</span>
+          UX Research, arquitectura de información &amp; Figma
+        </div>
+
+        <div class="legend-item">
+          <span class="legend-mark cloud">☁</span>
+          Cloud — AWS Certified Cloud Practitioner
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="proyectos" style="background: var(--light-secondary); padding-top: 0;">
+  <div class="wrap">
+    <div class="section-head" style="padding-top: 84px;">
+      <div class="eyebrow">Proyectos</div>
+      <h2>Un atlas de trabajo</h2>
+      <p>Empieza con ATTIMO, una plataforma académica full-stack construida en equipo, y sigue con proyectos de UX/UI puro: reordenar la navegación de un sitio institucional, rediseñar una app de smart home y experimentar con estética retro.</p>
+    </div>
+
+    <!-- ATTIMO -->
+    <article class="plate">
+      <div class="plate-label">Carta I — Full Stack</div>
+      <h3 class="plate-title">ATTIMO</h3>
+      <p class="plate-subtitle">Plataforma de organización académica — full-stack</p>
+      <div class="plate-meta">
+        <span class="tag">Laravel</span>
+        <span class="tag">React</span>
+        <span class="tag">MySQL</span>
+        <span class="tag">API REST</span>
+        <span class="tag">Sanctum Auth</span>
+        <span class="tag">Figma</span>
+      </div>
+      <div class="plate-body">
+        <p>ATTIMO es una plataforma responsiva para que estudiantes y profesores organicen cursos, actividades y evaluaciones desde un solo lugar.</p>
+      </div>
+      <div class="tech-grid">
+        <div class="tech-item">
+          <h4>Arquitectura</h4>
+          <p>API REST en Laravel 10 consumida por un frontend en React, con capas separadas de modelos, controladores y rutas.</p>
+        </div>
+        <div class="tech-item">
+          <h4>Base de datos</h4>
+          <p>~17 tablas en MySQL: usuarios, cursos, carreras, grupos y actividades, más tablas pivote para relaciones muchos-a-muchos (carreras-cursos, usuarios-grupos, actividades-usuarios/grupos/carreras).</p>
+        </div>
+        <div class="tech-item">
+          <h4>Backend</h4>
+          <p>Autenticación con Laravel Auth y Sanctum para la API. Endpoints REST para actividades, grupos, categorías y usuarios (registro, login, recuperación de contraseña), más un módulo de encuestas con estadísticas agregadas por consulta directa a la base de datos.</p>
+        </div>
+        <div class="tech-item">
+          <h4>Frontend</h4>
+          <p>Dashboard en React con calendario de actividades, múltiples cursos por usuario, modo oscuro y panel de estadísticas con gráficos.</p>
+        </div>
+        <div class="tech-item">
+          <h4>Reto técnico</h4>
+          <p>Modelar correctamente las relaciones muchos-a-muchos entre actividades, grupos, carreras y usuarios sin duplicar lógica, y exponer esas relaciones como estadísticas agregadas de forma eficiente.</p>
+        </div>
+        <div class="tech-item">
+          <h4>Roles &amp; alcance</h4>
+          <p>Vistas diferenciadas para estudiante (progreso, próximos eventos) y profesor (reportes de carga de actividades por grupo).</p>
+        </div>
+      </div>
+      <a class="repo-link" href="https://github.com/allyprz/AttimoBackend" target="_blank" rel="noopener">Ver repositorio del equipo (backend) →</a>
+
+<div class="project-carousel">
+
+  <div class="carousel-slide active">
+    <img src="images/attimo-dashboard.png" alt="Dashboard principal de ATTIMO">
+
+  </div>
+
+  <div class="carousel-slide">
+    <img src="images/attimo-calendar.png" alt="Vista mobile de ATTIMO">
+
+  </div>
+
+  <div class="carousel-slide">
+    <img src="images/attimo-Profile(1).png" alt="Reporte de actividades">
+
+  </div>
+
+  <div class="carousel-slide">
+    <img src="images/attimo-Profile_ Dark.png" alt="Reporte de actividades">
+
+  </div>
+
+  <div class="carousel-slide">
+    <img src="images/attimo-Statistics.png" alt="Reporte de actividades">
+
+  </div>
+
+
+<button class="carousel-btn prev" type="button">❮</button>
+<button class="carousel-btn next" type="button">❯</button>
+
+  <div class="carousel-dots"></div>
+
+</div>
+
+    </article>
+
+    <!-- SINABI -->
+    <article class="plate">
+      <div class="plate-label">Carta II</div>
+      <h3 class="plate-title">SINABI — Sistema Nacional de Bibliotecas</h3>
+      <p class="plate-subtitle">Rediseño y reestructuración de sitio institucional</p>
+      <div class="plate-meta">
+        <span class="tag">UX Research</span>
+        <span class="tag">Arquitectura de información</span>
+        <span class="tag">UI Redesign</span>
+        <span class="tag">Figma</span>
+      </div>
+      <div class="plate-body">
+        <p>El sitio del Sistema Nacional de Bibliotecas de Costa Rica (Ministerio de Cultura y Juventud) tenía menús sobrecargados de opciones, lo que complicaba encontrar servicios básicos como buscar en el catálogo o ubicar una biblioteca cercana.</p>
+        <p>Propuse una nueva estructura de navegación, agrupando y reduciendo las categorías del menú principal, y rediseñé la página de inicio para darle más peso a las acciones que la mayoría de usuarios necesita primero. Respeté al máximo la identidad visual existente y ajusté la paleta de colores para reforzar la jerarquía.</p>
+      </div>
+      <div class="compare-grid">
+        <div class="compare-col">
+          <span class="compare-tag before">Antes</span>
+          <div class="chart-frame compare-img"><img src="images/sinabi-home-before.png" alt="Página principal original de SINABI, antes del rediseño"></div>
+        </div>
+        <div class="compare-col">
+          <span class="compare-tag after">Después</span>
+          <div class="chart-frame compare-img"><img src="images/sinabi-home.png" alt="Propuesta de rediseño de la página principal de SINABI"></div>
+        </div>
+      </div>
+      <div class="before-after">
+        <div class="ba-col">
+          <h4>Antes</h4>
+          <ul>
+            <li>Menú principal con demasiadas categorías visibles a la vez</li>
+            <li>Jerarquía poco clara entre servicios y contenido informativo</li>
+            <li>Acciones clave (buscar, ubicar biblioteca) diluidas en la página</li>
+            <li>Arquitectura de información basada en la organización interna</li>     
+          </ul>
+        </div>
+        <div class="ba-col after">
+          <h4>Después</h4>
+          <ul>
+            <li>Estructura de menú simplificada y reagrupada por intención de uso</li>
+            <li>Accesos directos a las 4 acciones más buscadas desde el inicio</li>
+            <li>Paleta ajustada para mejorar contraste y lectura</li>
+            <li>
+              Prototipo disponible 
+              <a href="https://www.figma.com/proto/K9uHmSilbcLlQ2EE9NEpWZ/Home-Sinabi--Copy-?node-id=1-2&t=BlJbbLlPAc4NqvrY-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank" rel="noopener">
+                ver prototipo en Figma →
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <!-- SMART HOME -->
+    <article class="plate">
+      <div class="plate-label">Carta III — Product Design</div>
+      <h3 class="plate-title">Smart Home Control</h3>
+      <p class="plate-subtitle">Diseño de app de administración del hogar inteligente — mobile only</p>
+      <div class="plate-meta">
+        <span class="tag">UI Design</span>
+        <span class="tag">Mobile-only</span>
+        <span class="tag">UI Redesign</span>
+        <span class="tag">Figma</span>
+        <span class="tag">HTML/CSS</span>
+      </div>
+      <div class="plate-body">
+        <p>
+      Diseñé una interfaz orientada a estados: cada dispositivo comunica rápidamente si está activo, requiere atención o está automatizado, reduciendo la carga cognitiva del usuario.
+        </p>
+      </div>
+
+     <div class="proto-showcase">
+  <div class="proto-shell">
+    <div class="chart-frame proto-frame">
+      <iframe 
+        src="smarthome_prototype.html" 
+        title="Prototipo en vivo: inicio de sesión y habitaciones de Smart Home Control"
+        loading="lazy">
+      </iframe>
+    </div>
+
+    <div class="proto-meta">
+      <span class="proto-live-badge">
+        <span class="proto-live-dot"></span>
+        Prototipo HTML/CSS en vivo
+      </span>
+
+      <a class="proto-open-link" href="smarthome_prototype.html" target="_blank" rel="noopener">
+        Abrir en pestaña completa ↗
+      </a>
+    </div>
+  </div>
+</div>
+    </article>
+
+    <!-- INKPIXELL -->
+    <article class="plate">
+      <div class="plate-label">Carta IV</div>
+      <h3 class="plate-title">Inkpixell</h3>
+      <p class="plate-subtitle">Blog experimental responsivo con estética retro 
+      </p>
+      <div class="plate-meta">
+        <span class="tag">UI Design</span>
+        <span class="tag">Responsivo</span>
+        <span class="tag">Modo oscuro</span>
+        <span class="tag">Figma</span>
+        <span class="tag">HTML/CSS</span>
+      </div>
+      <div class="plate-body">
+        <p>Inkpixell es un blog con estética Y2K, inspirado en las páginas personales de principios de los 2000. Diseñé todo el sistema visual en Figma —tipografía pixelada, íconos hechos a mano, paneles tipo "widget"— antes de programarlo, cuidando que la nostalgia visual no sacrificara la usabilidad.</p>
+        <p>El sitio es completamente responsivo e incluye modo claro y oscuro, ambos manteniendo la misma identidad visual retro.</p>
+      </div>
+      <div class="media-row two-up">
+        <div>
+          <div class="chart-frame"><img src="images/inkpixell-home.png" alt="Página principal de Inkpixell en modo claro"></div>
+          <p class="plate-caption">Modo claro</p>
+        </div>
+        <div>
+          <div class="chart-frame"><img src="images/inkpixell-home-dark.png.png" alt="Página principal de Inkpixell en modo oscuro"></div>
+          <p class="plate-caption">Modo oscuro</p>
+        </div>
+      </div>
+
+      
+    </article>
+
+  </div>
+</section>
+
+<section class="contact" id="contacto">
+  <div class="graticule" style="opacity:0.2;"></div>
+  <div class="wrap" style="position:relative; z-index:2;">
+    <div class="eyebrow">Coordenadas de contacto</div>
+    <h2>¿Trabajamos en tu próximo proyecto?</h2>
+    <div class="contact-list">
+      <a class="contact-item" href="mailto:krisariash@gmail.com">
+        <span class="label">Email</span>
+        <span class="value">krisariash@gmail.com</span>
+      </a>
+      <a class="contact-item" href="https://linkedin.com/in/Krisly-Arias" target="_blank" rel="noopener">
+        <span class="label">LinkedIn</span>
+        <span class="value">linkedin.com/in/Krisly-Arias</span>
+      </a>
+      <a class="contact-item" href="https://github.com/krisariash" target="_blank" rel="noopener">
+        <span class="label">GitHub</span>
+        <span class="value">github.com/krisariash</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span>© 2026 Kris Arias — Portfolio</span>
+    <a href="#top">Volver arriba ↑</a>
+  </div>
+</footer>
+
+</body>
+<script src="carrusel.js"></script>
+</html>
